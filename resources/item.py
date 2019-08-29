@@ -30,7 +30,7 @@ class Item (Resource):
     
         # data=request.get_json(silent=True)#force=True
         
-        item=ItemModel(name, **data)
+        item=ItemModel(name, **data) 
         
         try:
             item.save_to_db()
