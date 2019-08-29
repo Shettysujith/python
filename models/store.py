@@ -1,5 +1,5 @@
 # import sqlite3
-from db import db
+from db import db 
 
 class StoreModel(db.Model):
     __tablename__='stores'
