@@ -60,3 +60,4 @@ Werkzeug==0.15.5
 wrapt==1.11.2
 xlrd==1.2.0
 uwsgi
+ 
